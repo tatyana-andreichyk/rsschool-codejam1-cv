@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Dosis-Regular";
+    src: url(../fonts/Dosis-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
 
 body, html {
   width: 100%;
-  font-family: "Arial", sans-serif;
+  font-family: "Dosis-Regular", "Arial", sans-serif;
   font-size: 10px;
   color: rgba(58, 0, 36, 1);
 }
@@ -22,7 +28,7 @@ body, html {
   justify-content: center;
   width: 100%;
   margin: 0 auto;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 
@@ -70,12 +76,15 @@ header h2 {
 }
 
 header img {
+  box-sizing: content-box;
   border-radius: 50%;
+  border: solid #ffffff 3px;
 }
 
 
 
 /* Main content */
+
 main{
   display: flex;
   flex-direction: column;
@@ -112,6 +121,7 @@ main section::after {
 
 
 /* Footer */
+
 footer {
   display: flex;
   flex-direction: column;
