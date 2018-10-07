@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+
+
+
+/* Header */
+
+header {
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* Main content */
+main{
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* Footer */
+footer {
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fab {
+    color: #000;
+}
+
