@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Dosis-Regular";
+    src: url(../fonts/Dosis-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+  width: 100%;
+  font-family: "Dosis-Regular", "Arial", sans-serif;
+  font-size: 10px;
+  color: rgba(58, 0, 36, 1);
+}
+
+
+
+/* Wrapper */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+
+
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 5%;
+  background: rgba(221, 205, 214, 1);
+  border-bottom: solid rgba(58, 0, 36, 1) 5px;
+}
+
+.header-main-information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.header-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.header-contacts ul {
+  list-style: none;
+  margin-top: 5%;
+}
+
+
+.header-contacts ul li i {
+  font-size: 2rem;
+  color: #3a0024;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+  font-style: italic;
+}
+
+header img {
+  box-sizing: content-box;
+  border-radius: 50%;
+  border: solid #ffffff 3px;
+}
+
+
+
+/* Main content */
+
+main{
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2% 5% 2% 5%;
+}
+
+main section h2{
+  text-align: center;
+  margin: 0 0 2% 0; 
+}
+
+main section::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 5% 0 5% 0;
+    background: rgba(221, 205, 214, 1);
+}
+
+.skills ul li {
+  padding-top: 0.5rem;
+}
+
+.education-item,
+.work-experience-item {
+  padding-top: 2rem;
+}
+
+
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(58, 0, 36, 1);
+}
+
+.footer-social-icons {
+  margin: 25px 0 25px 0;
+}
+
+.footer-social-icons a {
+  padding: 0 10px 0 10px;
+}
+
+footer .fab {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+}
